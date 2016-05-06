@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Echo</title>
+    <meta charset="utf-8">
+
+  </head>
+  
+  <body>
+      <header>
+        <h1>Echo</h1>
+      </header>
+      
+      <section id="echo_form">
+          <form class="text" id="echoform" action="">
+            <p>Input a Username and watch it be echoed...</p>
+            <p>Username: <input id="username" type="text" name="userName"/><span id="error" style="color:red"></span></p>
+            <p>
+            <input id="copy" type="button" onclick="copyUserName();" value="Copy" />
+          </p>
+            <p>Copied Username: <input type="text" name="copiedUserName"/></p>
+          </form>
+      </section>
+      
+      <footer>
+        <p>Created by Nicole Cote</p>
+      </footer>
+
+    <!-- Include external javascript file here -->
+    <script type="text/javascript" src="js/echo.js"></script>
+  </body>
+</html>
