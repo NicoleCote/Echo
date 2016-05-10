@@ -7,17 +7,17 @@
 ***********************************************************/
 
 
-function copyUserName() {
+function echoUserName() {
 	var userInput,		//username given by user 
-		copiedInput; 	//copy of the username
+		echoInput; 	//copy of the username
 
 	userInput = document.getElementById('username').value;
 	console.log("Username: " + userInput);
 
 	if(userInput.length != 0) {
 		error.innerHTML = "";
-		copiedInput = userInput;
-		echoform.copiedUserName.value = copiedInput;
+		echoInput = userInput;
+		echoform.echoedUserName.value = echoInput;
 	}
 	else {
 		//window.alert("Error: Did not input a username.")
